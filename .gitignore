@@ -1,0 +1,61 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales y de logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Configuraciones locales de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de Django
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos de migraciones (opcional si quieres compartirlos o no)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Archivos estáticos generados
+staticfiles/
+static/
+media/
+
+# Archivos de cobertura y pruebas
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+coverage.xml
+nosetests.xml
+test-results.xml
+junit.xml
+
+# Archivos de configuración personal
+*.env
+.env.*
+!.env.example
+
+# Docker
+*.pid
+*.pid.lock
