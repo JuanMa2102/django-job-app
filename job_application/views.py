@@ -27,3 +27,9 @@ def index(request):
 
             messages.success(request, 'Application submitted successfully!')
     return render(request, 'index.html')
+
+def about(request):
+    """
+    Render the about page.
+    """
+    return render(request, 'about.html')
